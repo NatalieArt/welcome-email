@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!--
+  SOGNI — NEW ACCOUNT WELCOME EMAIL  (review draft v2)
+  From: Mauvis Ledford, Co-Founder & CEO
+
+  SUBJECT LINE OPTIONS
+    A. You're in. Let's make something.
+    B. Welcome to Sogni — creativity, powered by people
+    C. Your creative network isn't a data center
+
+  PREHEADER
+    400 free credits a month, 100+ open models, one account across every Sogni app.
+
+  v2 NOTES
+    • Hero is now the Sogni astronaut key-art (images/hero-retro.jpg).
+    • Real Sogni logo in the header (images/sogni-logo.png).
+    • Palette: green (#00ff9d) + warm orange (#ff7a3d) accents, dark theme. Retro imagery.
+    • New primary button: "Jump into Sogni Skill" -> https://www.sogni.ai/agent
+    • Moon key-art used as the closing-CTA background (images/moon-retro.jpg).
+    • Local images live in ./images/ — for sending, re-host them and swap the src values.
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="color-scheme" content="dark">
+  <meta name="supported-color-schemes" content="dark">
+  <title>Welcome to Sogni</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* ----- review page chrome (NOT part of the email) ----- */
+    body.review-bg { margin:0; background:#07090c; }
+    .review-bar {
+      max-width:600px; margin:0 auto; padding:18px 22px; box-sizing:border-box;
+      font-family:"Space Mono", ui-monospace, Menlo, monospace; color:#9aa3b5;
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .review-bar .tag { display:inline-block; font-size:10px; letter-spacing:2.5px; text-transform:uppercase; color:#00ff9d; }
+    .review-bar .row { font-size:12px; line-height:1.7; margin-top:6px; color:#c7cdd8; }
+    .review-bar .row b { color:#f4f3ee; }
+    .review-bar .muted { color:#6b7280; }
+
+    /* ----- responsive email tweaks ----- */
+    @media only screen and (max-width:600px){
+      .container { width:100% !important; }
+      .px { padding-left:22px !important; padding-right:22px !important; }
+      .stack { display:block !important; width:100% !important; }
+      .stack-pad { padding:0 0 14px 0 !important; }
+      .gal td { padding:3px !important; }
+      .h1 { font-size:34px !important; line-height:1.08 !important; }
+      .appcell { display:block !important; width:100% !important; box-sizing:border-box !important; }
+      .cta-meta { letter-spacing:0 !important; line-height:2 !important; }
+      .tut-band { padding:24px 20px !important; }
+      .heromoon { padding:30px 22px !important; }
+    }
+    a { text-decoration:none; }
+  </style>
+</head>
+<body class="review-bg" style="margin:0; padding:0; background:#07090c url('images/stars.png') repeat;">
+
+  <!-- ===== REVIEW BAR (delete before sending) ===== -->
+  <div class="review-bar">
+    <span class="tag">✦ Review draft · v2 · not part of the email</span>
+    <div class="row"><b>Subject A:</b> You're in. Let's make something. &nbsp;·&nbsp; <span class="muted">B: Welcome to Sogni — creativity, powered by people · C: Your creative network isn't a data center</span></div>
+    <div class="row"><b>Preheader:</b> 400 free credits a month, 100+ open models, one account across every Sogni app.</div>
+  </div>
+
+  <!-- hidden preheader text -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#07090c; opacity:0;">
+    400 free credits a month, 100+ open models, one account across every Sogni app. Powered by people, not data centers.
+  </div>
+
+  <!-- ===== EMAIL ===== -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#07090c url('images/stars.png') repeat;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+        <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background:#0b0d10 url('images/stars.png') repeat top center; border:1px solid rgba(255,255,255,.08); border-radius:18px; overflow:hidden;">
+
+          <!-- gradient hairline (lime -> magenta) -->
+          <tr><td style="height:4px; background:linear-gradient(90deg,#00ff9d 0%,#ff7a3d 100%); font-size:0; line-height:0;">&nbsp;</td></tr>
+
+          <!-- header / logo -->
+          <tr>
+            <td class="px" style="padding:22px 40px 18px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                <td align="left" valign="middle">
+                  <img src="images/sogni-logo.png" width="124" alt="Sogni" style="display:block; width:124px; height:auto;">
+                </td>
+                <td align="right" valign="middle" style="font-family:'Space Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#6b7280;">
+                  Powered by people
+                </td>
+              </tr></table>
+            </td>
+          </tr>
+
+          <!-- HERO IMAGE (astronaut key-art) -->
+          <tr>
+            <td style="padding:0; font-size:0; line-height:0; border-top:1px solid rgba(0,255,157,.45); border-bottom:1px solid rgba(0,255,157,.45);">
+              <img src="images/hero-retro.jpg" width="600" alt="A Sogni explorer salutes over a neon city — made on the Supernet" style="display:block; width:100%; height:auto;">
+            </td>
+          </tr>
+
+          <!-- hero copy -->
+          <tr>
+            <td class="px" style="padding:30px 40px 6px 40px;">
+              <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#00ff9d;">✦ &nbsp;Welcome to Sogni</div>
+              <h1 class="h1" style="margin:14px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:44px; line-height:1.04; font-weight:900; letter-spacing:-1.2px; color:#fcfcfc;">
+                You're in.<br><span style="color:#00ff9d; text-shadow:0 1px 22px rgba(0,255,157,.32);">Let's make something.</span>
+              </h1>
+              <p style="margin:18px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:17px; line-height:1.6; color:#c7cdd8;">
+                Your account is your all-access pass to creative AI — <b style="color:#f4f3ee;">images, video, music, and more</b> — running on a global network of real people's GPUs instead of a handful of corporate data centers. Cheaper, faster, and yours.
+              </p>
+            </td>
+          </tr>
+
+          <!-- primary CTAs -->
+          <tr>
+            <td class="px" style="padding:24px 40px 6px 40px;">
+              <!-- primary: Sogni Web -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                <td bgcolor="#00ff9d" style="border-radius:12px;">
+                  <a href="https://app.sogni.ai" style="display:inline-block; padding:15px 30px; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; font-weight:700; color:#053b27; letter-spacing:.2px;">Jump into Sogni Web&nbsp;&nbsp;→</a>
+                </td>
+              </tr></table>
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;"><tr>
+                <td style="border:1px solid rgba(255,122,61,.55); border-radius:12px;">
+                  <a href="https://chat.sogni.ai" style="display:inline-block; padding:14px 28px; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; font-weight:700; color:#ff7a3d; letter-spacing:.2px;">Jump into Sogni Chat&nbsp;&nbsp;→</a>
+                </td>
+              </tr></table>
+              <!-- Sogni Skill (at the end) -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;"><tr>
+                <td style="border:1px solid rgba(0,255,157,.45); border-radius:12px;">
+                  <a href="https://www.sogni.ai/agent" style="display:inline-block; padding:14px 28px; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; font-weight:700; color:#00ff9d; letter-spacing:.2px;">Jump into Sogni Skill&nbsp;&nbsp;→</a>
+                </td>
+              </tr></table>
+              <p class="cta-meta" style="margin:16px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; line-height:1.85; letter-spacing:.3px; color:#6b7280;">
+                <span style="white-space:nowrap;">100+ open models</span> &nbsp;·&nbsp;
+                <span style="white-space:nowrap;">176× faster on the Supernet</span> &nbsp;·&nbsp;
+                <span style="white-space:nowrap;">400 free credits / month</span> &nbsp;·&nbsp;
+                <span style="white-space:nowrap;">from $0.004 a render</span>
+              </p>
+            </td>
+          </tr>
+
+          <!-- gallery strip -->
+          <tr>
+            <td class="px" style="padding:26px 40px 6px 40px;">
+              <table role="presentation" class="gal" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                <td width="33%" style="padding:0 4px;"><img src="images/saucer-retro.jpg" width="168" alt="A moon rendered on Sogni" style="display:block; width:100%; height:120px; object-fit:cover; border-radius:10px; border:1px solid rgba(0,255,157,.55);"></td>
+                <td width="33%" style="padding:0 4px;"><img src="images/station-retro.jpg" width="168" alt="The Sogni Explorer over a neon city" style="display:block; width:100%; height:120px; object-fit:cover; border-radius:10px; border:1px solid rgba(0,255,157,.55);"></td>
+                <td width="33%" style="padding:0 4px;"><img src="images/guy-retro.jpg" width="168" alt="Sogni key-art — the future isn't coming, we are building it" style="display:block; width:100%; height:120px; object-fit:cover; border-radius:10px; border:1px solid rgba(0,255,157,.55);"></td>
+              </tr></table>
+              <p style="margin:10px 0 0 0; font-family:'Space Mono',monospace; font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:#6b7280;">Made on the Supernet</p>
+            </td>
+          </tr>
+
+          <!-- divider -->
+          <tr><td class="px" style="padding:22px 40px 0 40px;"><div style="height:1px; background:rgba(255,255,255,.08); font-size:0; line-height:0;">&nbsp;</div></td></tr>
+
+          <!-- CEO letter -->
+          <tr>
+            <td class="px" style="padding:26px 40px 6px 40px;">
+              <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:2.5px; text-transform:uppercase; color:#ff7a3d;">A note from our co-founder</div>
+              <p style="margin:16px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.65; color:#c7cdd8;">
+                Welcome aboard — I'm really glad you're here.
+              </p>
+              <p style="margin:14px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.65; color:#c7cdd8;">
+                We started Sogni because the future of creativity was quietly moving into a handful of giant data centers — metered by the credit, filtered by committee, and priced like a luxury good.
+              </p>
+              <p style="margin:14px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.65; color:#c7cdd8;">
+                We built the opposite. Sogni runs on the <b style="color:#f4f3ee;">Supernet</b> — a decentralized GPU network powered by people, not data centers. That single choice is why your renders are <b style="color:#00ff9d;">cheaper</b>, run <b style="color:#00ff9d;">in parallel by the hundreds</b>, ship with the newest <b style="color:#00ff9d;">open models</b> the week they drop, and stay <b style="color:#00ff9d;">on your terms — your models, your rules</b>.
+              </p>
+              <p style="margin:14px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.65; color:#c7cdd8;">
+                And it's not just open models anymore. You now also get the latest <b style="color:#f4f3ee;">proprietary models</b> — like <b style="color:#00ff9d;">Seedance 2.0</b> and <b style="color:#00ff9d;">GPT Image 2</b> — right alongside them, so the best of both worlds lives in one place: create across every Sogni app, or call it all straight from the <b style="color:#00ff9d;">SDK</b>.
+              </p>
+              <p style="margin:14px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.65; color:#c7cdd8;">
+                You don't need to think about any of that to use it. Just create. But it's the reason Sogni feels faster, cheaper, and freer than whatever you were using before. Can't wait to see what you make.
+              </p>
+              <p style="margin:18px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:15px; line-height:1.4; color:#f4f3ee;">
+                <span style="font-weight:700;">— Mauvis Ledford</span><br>
+                <span style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:#6b7280;">Co-Founder &amp; CEO, Sogni</span>
+              </p>
+            </td>
+          </tr>
+
+          <!-- divider -->
+          <tr><td class="px" style="padding:24px 40px 0 40px;"><div style="height:1px; background:rgba(255,255,255,.08); font-size:0; line-height:0;">&nbsp;</div></td></tr>
+
+          <!-- what you can do -->
+          <tr>
+            <td class="px" style="padding:26px 40px 6px 40px;">
+              <h2 style="margin:0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:24px; font-weight:700; letter-spacing:-.5px; color:#fcfcfc;">What your account unlocks</h2>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="px" style="padding:14px 40px 0 40px;">
+              <!-- card: artists -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:12px; margin-bottom:12px;"><tr>
+                <td style="padding:18px 20px;">
+                  <div style="font-family:'Space Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#00ff9d;">✦ For artists &amp; creators</div>
+                  <p style="margin:9px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:15px; line-height:1.55; color:#c7cdd8;">Turn a prompt into finished media. 100+ open models (Z-Image Turbo, FLUX, Qwen, SDXL), video with LTX &amp; WAN, full songs with lyrics, style transfer, and photobooths that drop your face into any world.</p>
+                  <p style="margin:11px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:.5px;"><a href="https://router.sogni.ai/models/" style="color:#00ff9d; font-weight:700;">View all models&nbsp;→</a></p>
+                </td>
+              </tr></table>
+              <!-- card: marketers -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:12px; margin-bottom:12px;"><tr>
+                <td style="padding:18px 20px;">
+                  <div style="font-family:'Space Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#ff7a3d;">✦ For marketers &amp; teams</div>
+                  <p style="margin:9px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:15px; line-height:1.55; color:#c7cdd8;">One product shot in, a finished ad out. Batch thousands of on-brand images, spin up always-on virtual influencers, and ship social video — no crew, no stitching, no agency invoice.</p>
+                  <p style="margin:11px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:.5px;"><a href="https://blog.sogni.ai/blogs/storyboards-to-ad/" style="color:#ff7a3d; font-weight:700;">How to create your own product ads&nbsp;→</a></p>
+                </td>
+              </tr></table>
+              <!-- card: builders -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:12px;"><tr>
+                <td style="padding:18px 20px;">
+                  <div style="font-family:'Space Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#00ff9d;">✦ For builders — SDK &amp; API</div>
+                  <p style="margin:9px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:15px; line-height:1.55; color:#c7cdd8;">Every creative model behind one API. Drop the Sogni SDK into your app, or give your coding agent (Claude Code, Codex &amp; friends) creative superpowers in one line:</p>
+                  <div style="margin:12px 0 0 0; padding:11px 14px; background:#07090c; border:1px solid rgba(0,255,157,.25); border-radius:8px; font-family:'Space Mono',monospace; font-size:13px; color:#00ff9d;">$ npx setup-sogni-agent-skill</div>
+                  <p style="margin:12px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:.5px;"><a href="https://www.sogni.ai/agent" style="color:#00ff9d; font-weight:700;">Learn more about Sogni Agent&nbsp;→</a></p>
+                </td>
+              </tr></table>
+            </td>
+          </tr>
+
+          <!-- divider -->
+          <tr><td class="px" style="padding:24px 40px 0 40px;"><div style="height:1px; background:rgba(255,255,255,.08); font-size:0; line-height:0;">&nbsp;</div></td></tr>
+
+          <!-- apps -->
+          <tr>
+            <td class="px" style="padding:26px 40px 4px 40px;">
+              <h2 style="margin:0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:24px; font-weight:700; letter-spacing:-.5px; color:#fcfcfc;">One account. An ever-expanding universe.</h2>
+              <p style="margin:10px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:15px; line-height:1.55; color:#9aa3b5;">The same login works across every Sogni app — desktop, mobile, web, and API. A few favorites:</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="px" style="padding:16px 40px 0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 6px 12px 0;">
+                    <a href="https://app.sogni.ai" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/6858730acc30a649aa708c01_moonWeb_square%20(1).png" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:50%;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Sogni Web</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Create in your browser</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 0 12px 6px;">
+                    <a href="https://www.sogni.ai/studio" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/6858727bd736fc74bded4e3b_studio1024_square%20(1).png" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:50%;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Sogni Studio</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Pro AI studio for Mac</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 6px 12px 0;">
+                    <a href="https://chat.sogni.ai" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/chatCircle_1024.png" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:8px;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Creative Agent</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Describe it, get finished media</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 0 12px 6px;">
+                    <a href="https://photobooth.sogni.ai" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/696521ec4d4359aa2e98691f_685e36a499442f0d1bf3ae67_7ba0384252a428f14ae95b1d54862f8d_photobooth.jpg" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:8px;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Photobooth</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Become any character</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 6px 0 0;">
+                    <a href="https://360.sogni.ai" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/360_clear_1024.png" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:8px;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Sogni 360</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Spin anything into 360°</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                  <td class="appcell" width="50%" valign="top" style="padding:0 0 0 6px;">
+                    <a href="https://www.sogni.ai/pocket" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:13px 14px;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="46" valign="middle" style="padding-right:12px;"><img src="https://www.sogni.ai/cdn.prod.website-files.com/6630875599550e7ce589dac0/685872bcc09113ea70cc7bbf_iosMoon_1024%20(3).png" width="34" height="34" alt="" style="display:block; width:34px; height:34px; border-radius:8px;"></td>
+                        <td valign="middle">
+                          <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc;">Sogni Pocket</div>
+                          <div style="font-family:'Satoshi',sans-serif; font-size:13px; color:#9aa3b5; margin-top:2px;">Create on iPhone &amp; iPad</div>
+                        </td>
+                      </tr></table>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:10px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:1px;"><a href="https://www.sogni.ai/super-apps" style="color:#9aa3b5;">See all apps&nbsp;→</a></p>
+            </td>
+          </tr>
+
+          <!-- divider -->
+          <tr><td class="px" style="padding:24px 40px 0 40px;"><div style="height:1px; background:rgba(255,255,255,.08); font-size:0; line-height:0;">&nbsp;</div></td></tr>
+
+          <!-- getting started / blog -->
+          <tr>
+            <td class="px" style="padding:22px 40px 4px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:14px; overflow:hidden; border:1px solid rgba(255,255,255,.08); background:#101316;">
+                <tr>
+                  <td class="tut-band" background="images/station-retro.jpg" valign="bottom" style="padding:30px 26px; background-image:linear-gradient(180deg, rgba(11,13,16,.55) 0%, rgba(11,13,16,.82) 60%, rgba(11,13,16,.96) 100%), url('images/station-retro.jpg'); background-size:cover; background-position:center 30%; background-color:#101316;">
+                    <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#00ff9d;">✦ &nbsp;Tutorials</div>
+                    <h2 style="margin:10px 0 0 0; font-family:'Satoshi',Avenir,Helvetica,Arial,sans-serif; font-size:24px; font-weight:700; letter-spacing:-.5px; color:#fcfcfc; text-shadow:0 2px 14px rgba(0,0,0,.55);">New here? Start with these tutorials.</h2>
+                    <p style="margin:8px 0 0 0; font-family:'Satoshi',sans-serif; font-size:15px; line-height:1.55; color:#e7e9ee; text-shadow:0 1px 10px rgba(0,0,0,.5);">Quick, hands-on guides from the blog — written by artists, for artists.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="px" style="padding:16px 40px 0 40px;">
+              <!-- post 1 -->
+              <a href="https://blog.sogni.ai/blogs/personas/" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:14px 16px; margin-bottom:10px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td width="98" valign="middle" style="padding-right:14px;">
+                    <img src="https://blog.sogni.ai/assets/thumb-personas.png?v=thumbs2026" width="84" height="84" alt="Personas tutorial" style="display:block; width:84px; height:84px; object-fit:cover; border-radius:8px; border:1px solid rgba(0,255,157,.5);">
+                  </td>
+                  <td valign="middle">
+                    <div style="font-family:'Space Mono',monospace; font-size:9px; letter-spacing:1.6px; text-transform:uppercase; color:#ff7a3d;">Tutorial · Personas</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc; margin-top:4px;">Put your face in every render</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:13px; line-height:1.5; color:#9aa3b5; margin-top:2px;">Save yourself, your friends, even your pet — then summon them by name in any image or video.</div>
+                  </td>
+                  <td valign="middle" width="22" align="right" style="font-family:'Satoshi',sans-serif; font-size:18px; color:#00ff9d;">→</td>
+                </tr></table>
+              </a>
+              <!-- post 2 -->
+              <a href="https://blog.sogni.ai/blogs/storyboards-to-ad/" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:14px 16px; margin-bottom:10px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td width="98" valign="middle" style="padding-right:14px;">
+                    <img src="https://blog.sogni.ai/assets/thumb-storyboards-to-ad.png?v=thumbs2026" width="84" height="84" alt="Video Ads tutorial" style="display:block; width:84px; height:84px; object-fit:cover; border-radius:8px; border:1px solid rgba(0,255,157,.5);">
+                  </td>
+                  <td valign="middle">
+                    <div style="font-family:'Space Mono',monospace; font-size:9px; letter-spacing:1.6px; text-transform:uppercase; color:#00ff9d;">Tutorial · Video Ads</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc; margin-top:4px;">Turn a product photo into a video ad</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:13px; line-height:1.5; color:#9aa3b5; margin-top:2px;">One product shot in, a finished commercial out — storyboard to render, step by step.</div>
+                  </td>
+                  <td valign="middle" width="22" align="right" style="font-family:'Satoshi',sans-serif; font-size:18px; color:#00ff9d;">→</td>
+                </tr></table>
+              </a>
+              <!-- post 3 -->
+              <a href="https://blog.sogni.ai/blogs/storyboards-that-move/" style="display:block; background:#101316; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:14px 16px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td width="98" valign="middle" style="padding-right:14px;">
+                    <img src="https://blog.sogni.ai/assets/thumb-storyboards.png?v=thumbs2026" width="84" height="84" alt="Storyboards tutorial" style="display:block; width:84px; height:84px; object-fit:cover; border-radius:8px; border:1px solid rgba(0,255,157,.5);">
+                  </td>
+                  <td valign="middle">
+                    <div style="font-family:'Space Mono',monospace; font-size:9px; letter-spacing:1.6px; text-transform:uppercase; color:#ff7a3d;">Tutorial · Storyboards</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#fcfcfc; margin-top:4px;">From one prompt to a finished video</div>
+                    <div style="font-family:'Satoshi',sans-serif; font-size:13px; line-height:1.5; color:#9aa3b5; margin-top:2px;">Build storyboard panels, then render a social video right inside Sogni Chat.</div>
+                  </td>
+                  <td valign="middle" width="22" align="right" style="font-family:'Satoshi',sans-serif; font-size:18px; color:#00ff9d;">→</td>
+                </tr></table>
+              </a>
+              <p style="margin:12px 0 0 0; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:1px;"><a href="https://blog.sogni.ai/" style="color:#9aa3b5;">Browse all guides on the blog →</a></p>
+            </td>
+          </tr>
+
+          <!-- free perks box -->
+          <tr>
+            <td class="px" style="padding:24px 40px 0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#101316; border:1px solid rgba(0,255,157,.22); border-radius:14px;"><tr>
+                <td style="padding:22px 22px;">
+                  <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#00ff9d;">Your free account, on the house</div>
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:12px;">
+                    <tr><td style="font-family:'Satoshi',sans-serif; font-size:15px; line-height:1.9; color:#e7e9ee;">
+                      <span style="color:#00ff9d;">✓</span> &nbsp;400 free credits, every month<br>
+                      <span style="color:#00ff9d;">✓</span> &nbsp;No credit card required<br>
+                      <span style="color:#00ff9d;">✓</span> &nbsp;One login across every app + the API
+                    </td></tr>
+                  </table>
+                  <p style="margin:14px 0 0 0; font-family:'Satoshi',sans-serif; font-size:13px; line-height:1.55; color:#9aa3b5;">
+                    Need more? Pay-as-you-go from <b style="color:#e7e9ee;">$0.004 a render</b> — or go <a href="https://www.sogni.ai/unlimited" style="color:#00ff9d; font-weight:700;">Unlimited</a>: a flat $20/mo for fair-use, open-source creation, so you can stop watching the meter and just create.
+                  </p>
+                </td>
+              </tr></table>
+            </td>
+          </tr>
+
+          <!-- final CTA — moon key-art background -->
+          <tr>
+            <td class="px" style="padding:24px 40px 8px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:16px; overflow:hidden; border:1px solid rgba(255,255,255,.08);">
+                <tr>
+                  <td class="heromoon" align="center" background="images/moon-retro.jpg" style="padding:40px 30px; background-image:linear-gradient(180deg, rgba(7,9,12,.74) 0%, rgba(7,9,12,.86) 100%), url('images/moon-retro.jpg'); background-size:cover; background-position:center;">
+                    <h2 style="margin:0; font-family:'Satoshi',sans-serif; font-size:26px; font-weight:900; letter-spacing:-.6px; color:#fcfcfc; text-shadow:0 2px 16px rgba(0,0,0,.6);">Your first render is waiting.</h2>
+                    <p style="margin:8px 0 20px 0; font-family:'Satoshi',sans-serif; font-size:15px; line-height:1.55; color:#e7e9ee; text-shadow:0 1px 10px rgba(0,0,0,.55);">400 free credits. No card. One account, every app.</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center"><tr>
+                      <td bgcolor="#00ff9d" style="border-radius:12px;">
+                        <a href="https://app.sogni.ai" style="display:inline-block; padding:16px 38px; font-family:'Satoshi',sans-serif; font-size:16px; font-weight:700; color:#053b27; letter-spacing:.2px;">Start creating&nbsp;&nbsp;→</a>
+                      </td>
+                    </tr></table>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:12px auto 0 auto;"><tr>
+                      <td style="border:1px solid rgba(255,255,255,.5); border-radius:12px;">
+                        <a href="https://www.sogni.ai/unlimited" style="display:inline-block; padding:13px 30px; font-family:'Satoshi',sans-serif; font-size:15px; font-weight:700; color:#ffffff; letter-spacing:.2px;">Explore the Unlimited plan&nbsp;&nbsp;→</a>
+                      </td>
+                    </tr></table>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:16px 0 0 0; font-family:'Satoshi',sans-serif; font-size:13px; color:#6b7280; text-align:center;">Reply to this email any time — a real person reads it.</p>
+            </td>
+          </tr>
+
+          <!-- footer -->
+          <tr>
+            <td style="padding:26px 40px 30px 40px; border-top:1px solid rgba(255,255,255,.08); background:#08090c;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                <td align="left" valign="middle">
+                  <img src="images/sogni-logo.png" width="96" alt="Sogni" style="display:block; width:96px; height:auto;">
+                  <div style="font-family:'Space Mono',monospace; font-size:10px; letter-spacing:1px; color:#6b7280; margin-top:10px;">Powered by people, not data centers.</div>
+                </td>
+                <td align="right" valign="middle" style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:1px;">
+                  <a href="https://www.sogni.ai/super-apps" style="color:#9aa3b5;">Apps</a> &nbsp;·&nbsp;
+                  <a href="https://docs.sogni.ai" style="color:#9aa3b5;">Docs</a> &nbsp;·&nbsp;
+                  <a href="https://discord.sogni.ai" style="color:#9aa3b5;">Discord</a>
+                </td>
+              </tr></table>
+              <p style="margin:18px 0 0 0; font-family:'Satoshi',sans-serif; font-size:11px; line-height:1.6; color:#56606f;">
+                You're receiving this because you just created a Sogni account. &nbsp;<a href="#" style="color:#6b7280; text-decoration:underline;">Manage preferences</a> · <a href="#" style="color:#6b7280; text-decoration:underline;">Unsubscribe</a><br>
+                Sogni · Imagined with ♥ by we&amp;robot
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
